@@ -1,5 +1,5 @@
 
-
+// FIRST PROBLEM //
 
 $(function(){
 
@@ -21,7 +21,7 @@ $(function(){
     
 });
 
-
+// SECOND PROBLEM //
 
 $(function(){
 
@@ -43,6 +43,7 @@ $(function(){
     
 });
 
+// THIRD PROBLEM //
 
 $(function(){
 
@@ -64,6 +65,7 @@ $(function(){
     
 });
 
+// FOURTH PROBLEM //
 
 $(function(){
 
@@ -82,6 +84,7 @@ $(function(){
       alert('Sorry, you are wrong.');
    });
 
+// FIFTH PROBLEM //
     
 });
 
@@ -107,15 +110,12 @@ $(function(){
 
 
 
+// SCOREBOARD//
+// USE SCORE FROM COLUMN ONE TO PUSH SCORE INTO scoreBoard ARRAY //
 
+var scoreBoard;
 
-
-
-
-
-
-
-
+var columnOne = [100, 200, 300, 400, 500];
 
 
 
