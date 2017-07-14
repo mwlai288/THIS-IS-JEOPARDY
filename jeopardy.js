@@ -103,6 +103,7 @@ $(function(){
     $('.key4').on('click',function(){
       console.log(currentScore -= points[3]);
       alert('Sorry, you are wrong.');
+      $('#scoreboard').html('Score: ' + currentScore)
    });
 
 // FIFTH PROBLEM //
