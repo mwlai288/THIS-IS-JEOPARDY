@@ -77,6 +77,7 @@ $(function(){
     $('#modal3').modal('close'); 
     $('.key3').on('click',function(){
       console.log(currentScore -= points[2]);
+      $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
    });
 
@@ -102,9 +103,9 @@ $(function(){
     $('#modal4').modal('close'); 
     $('.key4').on('click',function(){
       console.log(currentScore -= points[3]);
-      alert('Sorry, you are wrong.');
       $('#scoreboard').html('Score: ' + currentScore)
-   });
+      alert('Sorry, you are wrong.');
+});
 
 // FIFTH PROBLEM //
     
