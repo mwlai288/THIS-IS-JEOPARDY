@@ -117,6 +117,7 @@ $(function(){
     $('#modal5').modal('close'); 
     $('.keye').on('click',function(){
       console.log(currentScore += points[4]);
+       $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
        
