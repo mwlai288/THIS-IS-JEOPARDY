@@ -68,6 +68,7 @@ $(function(){
     $('#modal3').modal('close'); 
     $('.keyc').on('click',function(){
       console.log(currentScore += points[2]);
+       $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
        
