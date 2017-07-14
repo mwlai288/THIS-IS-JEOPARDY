@@ -16,6 +16,7 @@ $(function(){
     $('.key').on('click',function(){
     // scoreBoard[0] += points[0]; 
     console.log(currentScore += points[0]);
+    $('#scoreboard').html('Score: ' + currentScore);
          alert('You are correct!');
    });
        
@@ -42,6 +43,7 @@ $(function(){
     $('#modal2').modal('close'); 
     $('.keyb').on('click',function(){
       console.log(currentScore += points[1]);
+      $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
        
@@ -49,6 +51,7 @@ $(function(){
     $('#modal2').modal('open');
     $('#modal2').modal('close'); 
     $('.key2').on('click',function(){
+      console.log(currentScore -= points[1]);
       alert('Sorry, you are wrong.');
    });
 
@@ -72,6 +75,7 @@ $(function(){
     $('#modal3').modal('open');
     $('#modal3').modal('close'); 
     $('.key3').on('click',function(){
+      console.log(currentScore -= points[2]);
       alert('Sorry, you are wrong.');
    });
 
@@ -95,6 +99,7 @@ $(function(){
     $('#modal4').modal('open');
     $('#modal4').modal('close'); 
     $('.key4').on('click',function(){
+      console.log(currentScore -= points[3]);
       alert('Sorry, you are wrong.');
    });
 
@@ -117,6 +122,7 @@ $(function(){
     $('#modal5').modal('open');
     $('#modal5').modal('close'); 
     $('.key5').on('click',function(){
+      console.log(currentScore -= points[4]);
       alert('Sorry, you are wrong.');
    });
 
