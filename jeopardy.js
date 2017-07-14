@@ -13,6 +13,7 @@ $(function(){
     $('.modal1').modal();
     $('#modal1').modal('open');
     $('#modal1').modal('close'); 
+    // $('#modal1').('disabled', true);
     $('.key').on('click',function(){
     // scoreBoard[0] += points[0]; 
     console.log(currentScore += points[0]);
@@ -28,11 +29,15 @@ $(function(){
     // scoreBoard[0] += points[0]; 
     // scoreBoard.push(points[0] += points[0]);
     $('#scoreboard').html('Score: ' + currentScore)
-      alert('Sorry, you are wrong.');
+      alert('Sorry, you are wrong.') ;
    });
-
   
+
 });
+
+//     setTimeOut(function() {
+//     $( ".modal1" ).modal( "close" )
+// }, 5000);
 
 // SECOND PROBLEM //
 
@@ -138,13 +143,83 @@ $(function(){
 });
 
 
+// SIXTH QUESTION //
 
-// SCOREBOARD//
-// USE SCORE FROM COLUMN ONE TO PUSH SCORE INTO scoreBoard ARRAY //
+$(function(){
+
+   // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal6').modal();
+    $('#modal6').modal('open');
+    $('#modal6').modal('close'); 
+    $('.keyf').on('click',function(){
+      console.log(currentScore += points[0]);
+       $('#scoreboard').html('Score: ' + currentScore)
+      alert('You are correct!');
+   });
+       
+ $('.modal6').modal();
+    $('#modal6').modal('open');
+    $('#modal6').modal('close'); 
+    $('.key6').on('click',function(){
+      console.log(currentScore -= points[0]);
+      $('#scoreboard').html('Score: ' + currentScore)
+      alert('Sorry, you are wrong.');
+   });
 
 
+});
 
 
+// SEVENTH QUESTION //
+
+$(function(){
+
+   // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal7').modal();
+    $('#modal7').modal('open');
+    $('#modal7').modal('close'); 
+    $('.keyg').on('click',function(){
+      console.log(currentScore += points[1]);
+       $('#scoreboard').html('Score: ' + currentScore)
+      alert('You are correct!');
+   });
+       
+ $('.modal7').modal();
+    $('#modal7').modal('open');
+    $('#modal7').modal('close'); 
+    $('.key7').on('click',function(){
+      console.log(currentScore -= points[1]);
+      $('#scoreboard').html('Score: ' + currentScore)
+      alert('Sorry, you are wrong.');
+   });
+    
+});
+
+
+// EIGHTH QUESTION //
+
+$(function(){
+
+   // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal8').modal();
+    $('#modal8').modal('open');
+    $('#modal8').modal('close'); 
+    $('.keyh').on('click',function(){
+      console.log(currentScore += points[2]);
+       $('#scoreboard').html('Score: ' + currentScore)
+      alert('You are correct!');
+   });
+       
+ $('.modal8').modal();
+    $('#modal8').modal('open');
+    $('#modal8').modal('close'); 
+    $('.key7').on('click',function(){
+      console.log(currentScore -= points[2]);
+      $('#scoreboard').html('Score: ' + currentScore)
+      alert('Sorry, you are wrong.');
+   });
+    
+});
 
 
 
