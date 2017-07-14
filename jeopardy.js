@@ -1,11 +1,11 @@
 // BUTTONS-MODALS and SCORE //
 // FIRST PROBLEM //
 
-var scoreBoard = [];
-var currentScore = [];
+var currentScore = 0;
 var points = [100, 200, 300, 400, 500];
 
-
+// Make a global variable for a playerScore;
+//When a player gets answer correct playerScore += amount of points 
 
 $(function(){
 
@@ -14,18 +14,16 @@ $(function(){
     $('#modal1').modal('open');
     $('#modal1').modal('close'); 
     $('.key').on('click',function(){
-
-    console.log(points[0]+scoreBoard);
     // scoreBoard[0] += points[0]; 
-    scoreBoard.push(points[0] += points[0]);
-      alert('You are correct!');
+    console.log(currentScore += points[0]);
+         alert('You are correct!');
    });
        
  $('.modal1').modal();
     $('#modal1').modal('open');
     $('#modal1').modal('close'); 
     $('.keya').on('click',function(){
-      console.log(scoreBoard[0]-points[0] + ' total');
+      console.log(currentScore -= points[0]);
     // scoreBoard[0] += points[0]; 
     // scoreBoard.push(points[0] += points[0]);
       alert('Sorry, you are wrong.');
@@ -43,7 +41,7 @@ $(function(){
     $('#modal2').modal('open');
     $('#modal2').modal('close'); 
     $('.keyb').on('click',function(){
-      console.log(points[1]);
+      console.log(currentScore += points[1]);
       alert('You are correct!');
    });
        
@@ -66,7 +64,7 @@ $(function(){
     $('#modal3').modal('open');
     $('#modal3').modal('close'); 
     $('.keyc').on('click',function(){
-      console.log(points[2]);
+      console.log(currentScore += points[2]);
       alert('You are correct!');
    });
        
@@ -89,7 +87,7 @@ $(function(){
     $('#modal4').modal('open');
     $('#modal4').modal('close'); 
     $('.keyd').on('click',function(){
-      console.log(points[3])
+      console.log(currentScore += points[3]);
       alert('You are correct!');
    });
        
@@ -111,7 +109,7 @@ $(function(){
     $('#modal5').modal('open');
     $('#modal5').modal('close'); 
     $('.keye').on('click',function(){
-      console.log(points[4]);
+      console.log(currentScore += points[4]);
       alert('You are correct!');
    });
        
