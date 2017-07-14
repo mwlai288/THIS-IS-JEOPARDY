@@ -52,6 +52,7 @@ $(function(){
     $('#modal2').modal('close'); 
     $('.key2').on('click',function(){
       console.log(currentScore -= points[1]);
+      $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
    });
 
