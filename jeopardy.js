@@ -221,6 +221,55 @@ $(function(){
     
 });
 
+// NINTH QUESTION //
+
+$(function(){
+
+   // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal9').modal();
+    $('#modal9').modal('open');
+    $('#modal9').modal('close'); 
+    $('.keyi').on('click',function(){
+      console.log(currentScore += points[3]);
+       $('#scoreboard').html('Score: ' + currentScore)
+      alert('You are correct!');
+   });
+       
+ $('.modal9').modal();
+    $('#modal9').modal('open');
+    $('#modal9').modal('close'); 
+    $('.key9').on('click',function(){
+      console.log(currentScore -= points[3]);
+      $('#scoreboard').html('Score: ' + currentScore)
+      alert('Sorry, you are wrong.');
+   });
+    
+});
+
+
+
+
+$(function(){
+
+    $('.modal10').modal();
+    $('#modal10').modal('open');
+    $('#modal10').modal('close'); 
+    $('.keyj').on('click',function(){
+      console.log(currentScore += points[4]);
+       $('#scoreboard').html('Score: ' + currentScore)
+      alert('You are correct!');
+   });
+       
+ $('.modal10').modal();
+    $('#modal10').modal('open');
+    $('#modal10').modal('close'); 
+    $('.key10').on('click',function(){
+      console.log(currentScore -= points[4]);
+      $('#scoreboard').html('Score: ' + currentScore)
+      alert('Sorry, you are wrong.');
+   });
+    
+});
 
 
 
@@ -234,9 +283,3 @@ $(function(){
 
 
 
-
-
-
-
-
-// ]
