@@ -27,6 +27,7 @@ $(function(){
       console.log(currentScore -= points[0]);
     // scoreBoard[0] += points[0]; 
     // scoreBoard.push(points[0] += points[0]);
+    $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
    });
 
