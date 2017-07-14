@@ -93,6 +93,7 @@ $(function(){
     $('#modal4').modal('close'); 
     $('.keyd').on('click',function(){
       console.log(currentScore += points[3]);
+       $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
        
