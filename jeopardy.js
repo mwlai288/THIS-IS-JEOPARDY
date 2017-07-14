@@ -1,5 +1,11 @@
-
+// BUTTONS-MODALS and SCORE //
 // FIRST PROBLEM //
+
+var scoreBoard = [];
+var currentScore = [];
+var points = [100, 200, 300, 400, 500];
+
+
 
 $(function(){
 
@@ -8,6 +14,10 @@ $(function(){
     $('#modal1').modal('open');
     $('#modal1').modal('close'); 
     $('.key').on('click',function(){
+
+    console.log(points[0]+scoreBoard);
+    // scoreBoard[0] += points[0]; 
+    scoreBoard.push(points[0] += points[0]);
       alert('You are correct!');
    });
        
@@ -15,10 +25,13 @@ $(function(){
     $('#modal1').modal('open');
     $('#modal1').modal('close'); 
     $('.keya').on('click',function(){
+      console.log(scoreBoard[0]-points[0] + ' total');
+    // scoreBoard[0] += points[0]; 
+    // scoreBoard.push(points[0] += points[0]);
       alert('Sorry, you are wrong.');
    });
 
-    
+  
 });
 
 // SECOND PROBLEM //
@@ -30,6 +43,7 @@ $(function(){
     $('#modal2').modal('open');
     $('#modal2').modal('close'); 
     $('.keyb').on('click',function(){
+      console.log(points[1]);
       alert('You are correct!');
    });
        
@@ -52,6 +66,7 @@ $(function(){
     $('#modal3').modal('open');
     $('#modal3').modal('close'); 
     $('.keyc').on('click',function(){
+      console.log(points[2]);
       alert('You are correct!');
    });
        
@@ -74,6 +89,7 @@ $(function(){
     $('#modal4').modal('open');
     $('#modal4').modal('close'); 
     $('.keyd').on('click',function(){
+      console.log(points[3])
       alert('You are correct!');
    });
        
@@ -95,6 +111,7 @@ $(function(){
     $('#modal5').modal('open');
     $('#modal5').modal('close'); 
     $('.keye').on('click',function(){
+      console.log(points[4]);
       alert('You are correct!');
    });
        
@@ -113,9 +130,6 @@ $(function(){
 // SCOREBOARD//
 // USE SCORE FROM COLUMN ONE TO PUSH SCORE INTO scoreBoard ARRAY //
 
-var scoreBoard;
-
-var columnOne = [100, 200, 300, 400, 500];
 
 
 
