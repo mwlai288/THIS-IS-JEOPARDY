@@ -126,6 +126,7 @@ $(function(){
     $('#modal5').modal('close'); 
     $('.key5').on('click',function(){
       console.log(currentScore -= points[4]);
+      $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
    });
 
