@@ -13,7 +13,6 @@ $(function(){
     $('.modal1').modal();
     $('#modal1').modal('open');
     $('#modal1').modal('close'); 
-    // $('#modal1').('disabled', true);
     $('.key').on('click',function(){
     // scoreBoard[0] += points[0]; 
     console.log(currentScore += points[0]);
@@ -213,7 +212,7 @@ $(function(){
  $('.modal8').modal();
     $('#modal8').modal('open');
     $('#modal8').modal('close'); 
-    $('.key7').on('click',function(){
+    $('.key8').on('click',function(){
       console.log(currentScore -= points[2]);
       $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
@@ -247,7 +246,7 @@ $(function(){
 });
 
 
-
+// TENTH QUESTION //  
 
 $(function(){
 
