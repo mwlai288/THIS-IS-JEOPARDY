@@ -30,6 +30,7 @@ body {
 	width: 300px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 15px;
     
 }
 
@@ -39,20 +40,34 @@ h1 {
 	font-weight: bolder;
 	font-size: 35px;
 	color: red;
+	font-family: 'Indie Flower', cursive;
+
 	
 
 }
 
 h4 {
-	padding-top: 55px;
+	padding-top: 30px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	color: white;
 }
 
+
+.picture {
+	padding-top: 65px;
+	padding-left: 190px;
+	position: relative;
+	float: right;
+    width: 50%;
+    height: 34px;
+}
+
+
 footer {
-            width: 100%;
+			background-color: white;
+            width: 28%;
             bottom: 0;
             position: fixed;
             font-size: 80px;
