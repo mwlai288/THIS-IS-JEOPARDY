@@ -15,9 +15,11 @@ body {
 	flex-shrink: all;
 	justify-content: center;
 
+
 }
 
 #baby1{
+	width: 300px;
     display: flex;
     flex-direction: column;
 	
@@ -25,9 +27,10 @@ body {
 
 
 #baby2{
+	width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    
 }
 
 
@@ -41,6 +44,8 @@ h1 {
 }
 
 h4 {
+	padding-top: 55px;
+	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	color: white;
