@@ -95,11 +95,13 @@ $(function(){
     $('#modal4').modal('open');
     $('#modal4').modal('close'); 
     $('.keyd').on('click',function(){
-      console.log(currentScore += points[3]);
+       $(this).attr('disabled','disabled');
+       console.log(currentScore += points[3]);
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    }); 
     $('.key4').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore -= points[3]);
       $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
