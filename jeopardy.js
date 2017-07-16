@@ -118,11 +118,13 @@ $(function(){
     $('#modal5').modal('open');
     $('#modal5').modal('close'); 
     $('.keye').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore += points[4]);
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
     $('.key5').on('click',function(){
+     $(this).attr('disabled','disabled');
       console.log(currentScore -= points[4]);
       $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
