@@ -143,11 +143,13 @@ $(function(){
     $('#modal6').modal('open');
     $('#modal6').modal('close'); 
     $('.keyf').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore += points[0]);
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
     $('.key6').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore -= points[0]);
       $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
