@@ -1,11 +1,15 @@
 // BUTTONS-MODALS and SCORE //
-// FIRST PROBLEM //
+
 
 var currentScore = 0;
 var points = [100, 200, 300, 400, 500];
 
 // Make a global variable for a playerScore;
 //When a player gets answer correct playerScore += amount of points 
+
+
+// FIRST PROBLEM //
+
 
 $(function(){
 
@@ -14,13 +18,14 @@ $(function(){
     $('#modal1').modal('open');
     $('#modal1').modal('close')
     $('.key').on('click',function(){
-    // scoreBoard[0] += points[0]; 
-    console.log(currentScore += points[0]);
+    $(this).attr('disabled','disabled');
     $('#scoreboard').html('Score: ' + currentScore);
          alert('You are correct!');
+    $('.key').event
    });
        
     $('.keya').on('click',function(){
+      $(this).attr('disabled','disabled');
       console.log(currentScore -= points[0]);
     // scoreBoard[0] += points[0]; 
     // scoreBoard.push(points[0] += points[0]);
@@ -32,9 +37,7 @@ $(function(){
 
 });
 
-//     setTimeOut(function() {
-//     $( ".modal1" ).modal( "close" )
-// }, 5000);
+
 
 // SECOND PROBLEM //
 
@@ -228,6 +231,38 @@ $(function(){
    });
     
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
