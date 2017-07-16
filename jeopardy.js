@@ -168,11 +168,13 @@ $(function(){
     $('#modal7').modal('open');
     $('#modal7').modal('close'); 
     $('.keyg').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore += points[1]);
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    }); 
     $('.key7').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore -= points[1]);
       $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
