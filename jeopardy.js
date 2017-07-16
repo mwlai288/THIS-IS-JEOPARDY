@@ -192,11 +192,13 @@ $(function(){
     $('#modal8').modal('open');
     $('#modal8').modal('close'); 
     $('.keyh').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore += points[2]);
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
     $('.key8').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore -= points[2]);
       $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
@@ -211,11 +213,13 @@ $(function(){
     $('#modal9').modal('open');
     $('#modal9').modal('close'); 
     $('.keyi').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore += points[3]);
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
     $('.key9').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore -= points[3]);
       $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
@@ -232,11 +236,13 @@ $(function(){
     $('#modal10').modal('open');
     $('#modal10').modal('close'); 
     $('.keyj').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore += points[4]);
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
     $('.key10').on('click',function(){
+       $(this).attr('disabled','disabled');
       console.log(currentScore -= points[4]);
       $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
