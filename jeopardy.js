@@ -42,19 +42,21 @@ $(function(){
 // SECOND PROBLEM //
 
 $(function(){
-    $('.keyb').on('click',function(){
-      console.log(currentScore += points[1]);
-      $('#scoreboard').html('Score: ' + currentScore)
+   $('#modal2').modal('open');
+   $('#modal2').modal('close');
+   $('.keyb').on('click',function(){
+   $(this).attr('disabled','disabled');
+    console.log(currentScore += points[1]);
+   $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
        
  $('.modal2').modal();
-    $('#modal2').modal('open');
-    $('#modal2').modal('close'); 
-    $('.key2').on('click',function(){
-      console.log(currentScore -= points[1]);
-      $('#scoreboard').html('Score: ' + currentScore)
-      alert('Sorry, you are wrong.');
+ $('.key2').on('click',function(){
+ $(this).attr('disabled','disabled');
+ console.log(currentScore -= points[1]);
+ $('#scoreboard').html('Score: ' + currentScore)
+    alert('Sorry, you are wrong.');
    });
 
     
