@@ -4,6 +4,10 @@
 var currentScore = 0;
 var points = [100, 200, 300, 400, 500];
 
+if (currentScore >= 1200) {
+  alert ('Congrats, you win!');
+}
+
 // Make a global variable for a playerScore;
 //When a player gets answer correct playerScore += amount of points 
 
@@ -19,8 +23,10 @@ $(function(){
     $('#modal1').modal('close')
     $('.key').on('click',function(){
     $(this).attr('disabled','disabled');
+    console.log(currentScore += points[0]);
     $('#scoreboard').html('Score: ' + currentScore);
-         alert('You are correct!');
+        alert('You are correct!');
+    
     $('.key').event
    });
        
@@ -247,9 +253,9 @@ $(function(){
       $('#scoreboard').html('Score: ' + currentScore)
       alert('Sorry, you are wrong.');
    });
-    
-});
+ 
 
+});
 
 
 

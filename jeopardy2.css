@@ -1,0 +1,12 @@
+body {
+	background: green;
+}
+
+
+footer {
+	background-color: orange;
+    width: 28%;
+    bottom: 0;
+    position: fixed;
+    font-size: 80px;
+}

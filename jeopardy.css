@@ -1,8 +1,4 @@
 body {
-	/*display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;*/
 	background: blue;
 }
 
@@ -50,13 +46,14 @@ h4 {
 	padding-top: 30px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	color: white;
 }
 
 
 .picture {
-	padding-top: 65px;
+	padding-top: 67px;
 	padding-left: 190px;
 	position: relative;
 	float: right;
