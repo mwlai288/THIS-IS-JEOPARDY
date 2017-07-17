@@ -26,6 +26,7 @@ $(function(){
     console.log(currentScore += points[0]);
     document.getElementById('yes').play();
     $('#scoreboard').html('Score: ' + currentScore);
+    document.getElementById('yes').play();
         alert('You are correct!');
     
     $('.key').event
@@ -54,6 +55,7 @@ $(function(){
    $('.keyb').on('click',function(){
    $(this).attr('disabled','disabled');
     console.log(currentScore += points[1]);
+    document.getElementById('yes').play();
    $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
@@ -80,6 +82,7 @@ $(function(){
     $('.keyc').on('click',function(){
        $(this).attr('disabled','disabled');
      console.log(currentScore += points[2]);
+     document.getElementById('yes').play();
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    }); 
@@ -104,6 +107,7 @@ $(function(){
     $('.keyd').on('click',function(){
        $(this).attr('disabled','disabled');
        console.log(currentScore += points[3]);
+       document.getElementById('yes').play();
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    }); 
@@ -127,6 +131,7 @@ $(function(){
     $('.keye').on('click',function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore += points[4]);
+      document.getElementById('yes').play();
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
@@ -152,6 +157,7 @@ $(function(){
     $('.keyf').on('click',function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore += points[0]);
+      document.getElementById('yes').play();
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
@@ -177,6 +183,7 @@ $(function(){
     $('.keyg').on('click',function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore += points[1]);
+      document.getElementById('yes').play();
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    }); 
@@ -201,6 +208,7 @@ $(function(){
     $('.keyh').on('click',function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore += points[2]);
+      document.getElementById('yes').play();
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
@@ -222,6 +230,7 @@ $(function(){
     $('.keyi').on('click',function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore += points[3]);
+      document.getElementById('yes').play();
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
@@ -245,6 +254,7 @@ $(function(){
     $('.keyj').on('click',function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore += points[4]);
+      document.getElementById('yes').play();
        $('#scoreboard').html('Score: ' + currentScore)
       alert('You are correct!');
    });
