@@ -4,8 +4,8 @@
 var currentScore = 0;
 var points = [100, 200, 300, 400, 500];
 
-if (currentScore >= 1200) {
-  alert ('Congrats, you win!');
+function newpage() {
+  window.location.reload();
 }
 
 // Make a global variable for a playerScore;
@@ -24,6 +24,7 @@ $(function(){
     $('.key').on('click',function(){
     $(this).attr('disabled','disabled');
     console.log(currentScore += points[0]);
+    document.getElementById('yes').play();
     $('#scoreboard').html('Score: ' + currentScore);
         alert('You are correct!');
     
@@ -254,6 +255,10 @@ $(function(){
       alert('Sorry, you are wrong.');
    });
  
+if (currentScore >= 1200) {
+  alert ('Congrats, you win!');
+}
+
 
 });
 

@@ -1,5 +1,5 @@
 body {
-	background: blue;
+	background: #2046DC;
 }
 
 
@@ -34,7 +34,7 @@ body {
 h1 {
 	text-align: center;
 	font-weight: bolder;
-	font-size: 35px;
+	font-size: 30px;
 	color: red;
 	font-family: 'Indie Flower', cursive;
 

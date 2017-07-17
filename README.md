@@ -23,6 +23,7 @@ https://trello.com/b/8UeOak2X/wdi-project-1-jeopardy
 -Materialize: Modals
 -Google Fonts
 -Google Images: picture
+-StackOverflow
 
 #WIREFRAME SCREENSHOT:
 http://imgur.com/WPhIplx
