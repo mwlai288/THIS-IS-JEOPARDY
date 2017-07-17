@@ -62,7 +62,7 @@ h4 {
 }
 
 
-footer {
+#scoreboard {
 			background-color: white;
             width: 28%;
             bottom: 0;
@@ -71,4 +71,8 @@ footer {
 }
 
 
-
+#name {
+	padding-left: 595px;
+	bottom: 0;
+	position: fixed;
+}
