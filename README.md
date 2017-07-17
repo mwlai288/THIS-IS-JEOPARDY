@@ -4,7 +4,7 @@
 My project was a simple, multiple choice version of Jeopardy. Once the user enters the page they can click on any of the choices and answer from the dialog box that opens. If the user answers correctly they will be awarded the number of points the question is worth. If answered incorrectly they will lose the points.
 
 BitBalloon link:
-http://interpreter-cow-70420.bitballoon.com/
+http://auditor-whale-16160.bitballoon.com/
 
 Trello Board Link/User Stories:
 https://trello.com/b/8UeOak2X/wdi-project-1-jeopardy

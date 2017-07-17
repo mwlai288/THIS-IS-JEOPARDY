@@ -37,9 +37,12 @@ $(function(){
       console.log(currentScore -= points[0]);
     // scoreBoard[0] += points[0]; 
     // scoreBoard.push(points[0] += points[0]);
+
     $('#scoreboard').html('Score: ' + currentScore)
-      alert('Sorry, you are wrong.') ;
+     document.getElementById('no').play(); 
+      alert('Sorry, you are wrong.');
    });
+
   
   // * DISABLE BUTTON AFTER 1 CLICK * //
 
@@ -65,6 +68,7 @@ $(function(){
  $(this).attr('disabled','disabled');
  console.log(currentScore -= points[1]);
  $('#scoreboard').html('Score: ' + currentScore)
+      document.getElementById('no').play(); 
     alert('Sorry, you are wrong.');
    });
 
@@ -90,6 +94,8 @@ $(function(){
        $(this).attr('disabled','disabled');
        console.log(currentScore -= points[2]);
       $('#scoreboard').html('Score: ' + currentScore)
+           document.getElementById('no').play(); 
+
       alert('Sorry, you are wrong.');
    });
 
@@ -115,6 +121,8 @@ $(function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore -= points[3]);
       $('#scoreboard').html('Score: ' + currentScore)
+           document.getElementById('no').play(); 
+
       alert('Sorry, you are wrong.');
 });
 
@@ -139,6 +147,8 @@ $(function(){
      $(this).attr('disabled','disabled');
       console.log(currentScore -= points[4]);
       $('#scoreboard').html('Score: ' + currentScore)
+           document.getElementById('no').play(); 
+
       alert('Sorry, you are wrong.');
    });
 
@@ -165,6 +175,8 @@ $(function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore -= points[0]);
       $('#scoreboard').html('Score: ' + currentScore)
+           document.getElementById('no').play(); 
+
       alert('Sorry, you are wrong.');
    });
 
@@ -191,6 +203,7 @@ $(function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore -= points[1]);
       $('#scoreboard').html('Score: ' + currentScore)
+           document.getElementById('no').play(); 
       alert('Sorry, you are wrong.');
    });
     
@@ -216,6 +229,7 @@ $(function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore -= points[2]);
       $('#scoreboard').html('Score: ' + currentScore)
+           document.getElementById('no').play(); 
       alert('Sorry, you are wrong.');
    });
     
@@ -238,6 +252,7 @@ $(function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore -= points[3]);
       $('#scoreboard').html('Score: ' + currentScore)
+           document.getElementById('no').play(); 
       alert('Sorry, you are wrong.');
    });
     
@@ -262,6 +277,7 @@ $(function(){
        $(this).attr('disabled','disabled');
       console.log(currentScore -= points[4]);
       $('#scoreboard').html('Score: ' + currentScore)
+           document.getElementById('no').play(); 
       alert('Sorry, you are wrong.');
    });
  
