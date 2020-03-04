@@ -1,35 +1,27 @@
 body {
-	background: #2046DC;
+	background: #2046dc;
 }
-
-
 
 #main {
 	padding-top: 14px;
-    display:flex;
-    flex-direction:row;
+	display: flex;
+	flex-direction: row;
 	flex-shrink: all;
 	justify-content: center;
-
-
 }
 
-#baby1{
+#baby1 {
 	width: 300px;
-    display: flex;
-    flex-direction: column;
-	
+	display: flex;
+	flex-direction: column;
 }
 
-
-#baby2{
+#baby2 {
 	width: 300px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 15px;
-    
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 15px;
 }
-
 
 h1 {
 	text-align: center;
@@ -37,9 +29,6 @@ h1 {
 	font-size: 30px;
 	color: red;
 	font-family: 'Indie Flower', cursive;
-
-	
-
 }
 
 h4 {
@@ -51,25 +40,13 @@ h4 {
 	color: white;
 }
 
-
-.picture {
-	padding-top: 67px;
-	padding-left: 190px;
-	position: relative;
-	float: right;
-    width: 50%;
-    height: 34px;
-}
-
-
 #scoreboard {
-			background-color: white;
-            width: 28%;
-            bottom: 0;
-            position: fixed;
-            font-size: 80px;
+	background-color: white;
+	width: 28%;
+	bottom: 0;
+	position: fixed;
+	font-size: 80px;
 }
-
 
 #name {
 	padding-left: 595px;
